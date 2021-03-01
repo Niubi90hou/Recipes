@@ -31,7 +31,7 @@ struct ContentView: View {
                         }
                     })
                
-            }.navigationTitle("All Recipes")
+            }.navigationTitle("All Recipess")
         }
     }
 }
