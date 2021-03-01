@@ -10,9 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: - Properties
-    
-    //Reference the view Model
-    @ObservedObject var model = RecipeModel()
+    @EnvironmentObject var model:RecipeModel
+
     
     var body: some View {
         NavigationView {
